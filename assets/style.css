@@ -1,0 +1,180 @@
+@media screen and (min-width: 900px) {
+  #about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #description {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #goals {grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
+@media screen and (max-width: 901px) {
+  #about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* #description {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #goals {grid-column-start: 2;
+    grid-column-end: 3;
+  } */
+}
+
+body {
+  background-color: #white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* visited link */
+a:hover{
+  color: #7C1418;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-size: 20px!important;
+  font-weight: 300;
+  color: white;
+  margin-top: 0!important;
+  padding-right: 3vw;
+  padding-left: 3vw}
+
+p {
+  font-family: 'Alegreya';
+}
+
+li {
+  font-family: 'Alegreya';
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  color: #1E3260;
+}
+
+#me {
+  width: 30%;
+  min-width: 200px;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#googlePhotos, #honeymoon{
+  display: inline-block;
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#pronouns {
+  text-align: center;
+  color: #F2F2F2;
+}
+
+
+#description {
+  background-color: #F2F2F2;
+  margin: 3vh 3vw;
+  padding: 2vh 4vw;
+  border-radius:7px;
+  box-shadow: 2px 2px black;
+}
+
+#goals {
+  background-color: #F2F2F2;
+  margin: 3vh 3vw;
+  padding: 2vh 2vw;
+  border-radius:7px;
+  box-shadow: 2px 2px black;
+}
+/* #table1 {
+  vertical-align: top;
+  border-collapse: separate;
+  border-spacing: 80px;
+}
+
+#column1 {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F2F2F2;
+  border-radius: 7px;
+  color: #021F59;
+  box-shadow: 2px 2px black;
+  width: 50%;
+}
+
+#column2 {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F2F2F2;
+  border-radius: 7px;
+  color: #021F59;
+  box-shadow: 2px 2px black;
+  width: 50%;
+} */
+
+#descriptionhead {
+  text-align: center;
+}
+
+#goalshead {
+  text-align: center;
+}
+
+
+#portfolio {
+  width: 100%;
+  text-align: center;
+}
+
+#portfolio2 {
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: calc(100%-50px);
+  margin-top: 50px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: #1E3260;
+  border-radius:7px;
+  color: #021F59;
+  box-shadow: 2px 2px rgba(255, 0, 0, 0.5));
+}
+
+#portfolioitems {
+  font-size: 20px;
+}
+
+#portfoliohead {
+  font-size: 25px;
+}
